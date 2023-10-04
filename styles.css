@@ -1,28 +1,33 @@
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 img {
-    width: 100px;
+  width: 100px;
 }
 
-#hero{
-    display: flex;
-    margin:0;
-    background-image: url(images/air-force-museum.jpg);
-    background-size: cover;
-    height:300px
-   
+#hero {
+  display: flex;
+  margin: 0;
+  background-image: url(images/air-force-museum.jpg);
+  background-size: cover;
+  height: 300px;
 }
-.mid-center{
-    display:flex;
-    flex-direction: column;
-    height: 300px;
-    justify-content: center;
-    border:1px solid red;
-    color: white;
-    text-shadow: 1px 1px 2px black;
+.mid-center {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  color: #242f40;
+  text-shadow: 2px 2px 2px #cca43b;
 }
 
-
+/* CSS HEX color codes
+--jet: #363636ff;
+--gunmetal: #242f40ff;
+--satin-sheen-gold: #cca43bff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+*/
