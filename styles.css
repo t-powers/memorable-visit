@@ -28,6 +28,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  position: 0 64px 0 44px;
 }
 
 .location {
@@ -38,6 +39,16 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  position: 0 42px 0 29px;
+}
+.img-1 {
+  width: 236px;
+  height: 197px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: url(images/A10.jpeg), lightgray 50% / cover no-repeat;
+  box-shadow: 7px 6px 4px 0px rgba(0, 0, 0, 0.59);
+  position: 455px 899px 145px 180px;
 }
 
 /* CSS HEX color codes
