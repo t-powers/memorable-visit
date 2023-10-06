@@ -4,11 +4,40 @@ html {
 
 body {
   margin: 0;
-  text-align: center;
+  width: 1280px;
+  height: 832px;
+  border: 1px solid #000;
+  background: linear-gradient(
+    180deg,
+    #d4ddfd 46.88%,
+    rgba(255, 255, 255, 0.94) 97.6%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 img {
   width: 100px;
+}
+.title {
+  width: 531px;
+  height: 123px;
+  color: #000;
+  text-align: center;
+  font-family: Karma;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.location {
+  color: #000;
+  text-align: center;
+  font-family: Karma;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* CSS HEX color codes
