@@ -51,6 +51,26 @@ img {
   position: 455px 899px 145px 180px;
 }
 
+.img-2 {
+  width: 236px;
+  height: 197px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: url(images/A10.jpeg), lightgray 50% / cover no-repeat;
+  box-shadow: 7px 6px 4px 0px rgba(0, 0, 0, 0.59);
+  position: 455px 899px 180px 145px;
+}
+
+.img-3 {
+  width: 236px;
+  height: 197px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: url(images/A10.jpeg), lightgray 50% / cover no-repeat;
+  box-shadow: 7px 6px 4px 0px rgba(0, 0, 0, 0.59);
+  position: 455px 103px 180px 941px;
+}
+
 /* CSS HEX color codes
 --jet: #363636ff;
 --gunmetal: #242f40ff;
