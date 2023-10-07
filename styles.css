@@ -6,14 +6,10 @@ body {
   height: 1115;
 }
 
-img {
-  width: 100px;
-}
 #div-hero {
-  border: 1px solid red;
   display: flex;
   margin-top: 50px;
-  width: 720px;
+  width: 100%;
   height: 368px;
   background-image: url(images/outside.webp);
   background-position: center;
@@ -23,11 +19,23 @@ img {
 }
 
 .title {
-  border: 1px solid red;
   background: #59a5d8;
-  width: 600px;
+  width: ;
   height: 45px;
   text-align: center;
   color: #fff;
   font-size: 36px;
+}
+
+#center-section {
+  height: 320px;
+  width: 720px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 77px;
+  background: linear-gradient(
+    180deg,
+    rgba(89, 165, 216, 0.53) 0%,
+    rgba(237, 238, 240, 0.53) 75.52%
+  );
 }
