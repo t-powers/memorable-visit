@@ -1,21 +1,25 @@
-html {
-  height: 100%;
-}
-
+html,
 body {
-  margin: 0;
   width: 720px;
-  height: 1115px;
-
+  height: 1115;
 }
 
 img {
   width: 100px;
 }
+#div-hero {
+  width: 720px;
+  height: 368px;
+}
+#img-hero {
+  background: url(images/outside.webp) no-repeat center center;
 
-#img-hero{
-  background: url(images/outside.webp), lightgray 50% / cover no-repeat;
-
+  background-position: center;
+  background-size: contain;
+  height: 368px;
+  width: 720px;
+  display: flex;
+  flex-shrink: 0;
 }
 
 /* CSS HEX color codes
