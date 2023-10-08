@@ -4,6 +4,7 @@ body {
   margin-left: auto;
   width: 720px;
   height: 1115;
+  padding-top: 20px;
 }
 
 h2 {
@@ -84,18 +85,37 @@ h3 {
   background: url(images/ellipse-3.png), lightgray 50% / cover no-repeat;
 }
 
-#div-bottom{
+#div-bottom {
   display: flex;
   width: auto;
   height: 368px;
-  background-image: url(images/frontal.jpg);
+  background-image: url(images/bottom.png);
   background-position: center;
   background-size: cover;
-  justify-content: center;
-  align-items: end;
+  justify-content: end;
+  align-items: center;
+  padding-right: 75px;
 }
-img{
-  width:125px;
-  height:auto;
+img {
+  width: 125px;
+  height: auto;
   border-radius: 14px;
+}
+
+.my-intro {
+  display: flex;
+  text-wrap: wrap;
+  align-items: start;
+}
+
+.my-text {
+  width: 176px;
+  height: 40px;
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
 }
