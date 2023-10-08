@@ -5,12 +5,30 @@ body {
   width: 720px;
   height: 1115;
 }
-
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 #div-hero {
   display: flex;
   margin-top: 50px;
-  width: 100%;
+  width: auto;
   height: 368px;
+
   background-image: url(images/outside.webp);
   background-position: center;
   background-size: cover;
@@ -20,22 +38,55 @@ body {
 
 .title {
   background: #59a5d8;
-  width: ;
-  height: 45px;
+  padding: 5px 20px;
   text-align: center;
   color: #fff;
+  text-shadow: 1px 1px black;
   font-size: 36px;
 }
 
 #center-section {
+  border: 1px solid red;
+
+  display: flex;
   height: 320px;
   width: 720px;
-  display: inline-flex;
-  align-items: flex-start;
   gap: 77px;
   background: linear-gradient(
     180deg,
     rgba(89, 165, 216, 0.53) 0%,
     rgba(237, 238, 240, 0.53) 75.52%
   );
+  padding: 61px 0px 24px 67px;
+}
+.left-div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left-img {
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 138px;
+  background: url(images/A10.jpeg), lightgray 50% / cover no-repeat;
+  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
+}
+.mid-img {
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 138px;
+  background: url(images/wright1909military.jpeg),
+    lightgray 50% / cover no-repeat;
+  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
+}
+.right-img {
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 138px;
+  background: url(images/P38.jpeg), lightgray 50% / cover no-repeat;
+  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
