@@ -47,41 +47,41 @@ h3 {
 #center-section {
   border: 1px solid red;
   display: flex;
+  justify-content: center;
   height: 320px;
   width: 720px;
   gap: 77px;
+  padding-top: 50px;
   background: linear-gradient(
     180deg,
     rgba(89, 165, 216, 0.53) 0%,
     rgba(237, 238, 240, 0.53) 75.52%
   );
-  padding: 61px 0px 24px 67px;
 }
 
-.left-div {
+.left-div,
+.mid-div,
+.right-div {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 150px;
 }
-.left-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 138px;
-  background: url(images/ellipse-1.png), lightgray 50% / cover no-repeat;
-  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
-}
-.mid-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 138px;
-  background: url(images/ellipse-2.png), lightgray 50% / cover no-repeat;
-  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
-}
+.left-img,
+.mid-img,
 .right-img {
   width: 130px;
   height: 130px;
   border-radius: 138px;
-  background: url(images/ellipse-3.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
+}
+.left-img {
+  background: url(images/ellipse-1.png), lightgray 50% / cover no-repeat;
+}
+.mid-img {
+  background: url(images/ellipse-2.png), lightgray 50% / cover no-repeat;
+}
+.right-img {
+  background: url(images/ellipse-3.png), lightgray 50% / cover no-repeat;
 }
