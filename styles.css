@@ -5,6 +5,7 @@ body {
   width: 720px;
   height: 1115;
 }
+
 h2 {
   color: #000;
   text-align: center;
@@ -28,7 +29,6 @@ h3 {
   margin-top: 50px;
   width: auto;
   height: 368px;
-
   background-image: url(images/outside.webp);
   background-position: center;
   background-size: cover;
@@ -47,7 +47,6 @@ h3 {
 
 #center-section {
   border: 1px solid red;
-
   display: flex;
   height: 320px;
   width: 720px;
@@ -59,6 +58,7 @@ h3 {
   );
   padding: 61px 0px 24px 67px;
 }
+
 .left-div {
   border: 1px solid red;
   display: flex;
@@ -68,25 +68,21 @@ h3 {
 .left-img {
   width: 130px;
   height: 130px;
-  flex-shrink: 0;
   border-radius: 138px;
-  background: url(images/A10.jpeg), lightgray 50% / cover no-repeat;
+  background: url(public/images/ellipse-1.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
 .mid-img {
   width: 130px;
   height: 130px;
-  flex-shrink: 0;
   border-radius: 138px;
-  background: url(images/wright1909military.jpeg),
-    lightgray 50% / cover no-repeat;
+  background: url(public/images/ellipse-2.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
 .right-img {
   width: 130px;
   height: 130px;
-  flex-shrink: 0;
   border-radius: 138px;
-  background: url(images/P38.jpeg), lightgray 50% / cover no-repeat;
+  background: url(public/images/ellipse-3.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
