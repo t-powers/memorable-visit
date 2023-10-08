@@ -69,20 +69,20 @@ h3 {
   width: 130px;
   height: 130px;
   border-radius: 138px;
-  background: url(public/images/ellipse-1.png), lightgray 50% / cover no-repeat;
+  background: url(images/ellipse-1.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
 .mid-img {
   width: 130px;
   height: 130px;
   border-radius: 138px;
-  background: url(public/images/ellipse-2.png), lightgray 50% / cover no-repeat;
+  background: url(images/ellipse-2.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
 .right-img {
   width: 130px;
   height: 130px;
   border-radius: 138px;
-  background: url(public/images/ellipse-3.png), lightgray 50% / cover no-repeat;
+  background: url(images/ellipse-3.png), lightgray 50% / cover no-repeat;
   box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.45);
 }
