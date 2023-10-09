@@ -85,6 +85,19 @@ h3 {
   background: url(images/ellipse-3.png), lightgray 50% / cover no-repeat;
 }
 
+.left-div:hover {
+  transform: translateY(-5px);
+  transition: ease-in-out 300ms;
+}
+.mid-div:hover {
+  transform: translateY(-5px);
+  transition: ease-in-out 300ms;
+}
+.right-div:hover {
+  transform: translateY(-5px);
+  transition: ease-in-out 300ms;
+}
+
 #div-bottom {
   display: flex;
   width: auto;
@@ -100,7 +113,6 @@ img {
   width: 125px;
   height: auto;
   border-radius: 14px;
- 
 }
 
 .my-intro {
