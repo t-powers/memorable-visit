@@ -7,6 +7,14 @@ body {
   padding-top: 20px;
 }
 
+h1 {
+  background: #59a5d8;
+  padding: 5px 20px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  font-size: 36px;
+}
 h2 {
   color: #000;
   text-align: center;
@@ -34,15 +42,6 @@ h3 {
   background-size: cover;
   justify-content: center;
   align-items: end;
-}
-
-.title {
-  background: #59a5d8;
-  padding: 5px 20px;
-  text-align: center;
-  color: #fff;
-  text-shadow: 2px 2px 2px black;
-  font-size: 36px;
 }
 
 #center-section {
